@@ -1,0 +1,9 @@
+<html>
+  <body>
+    <form action="/update/<%= rows.id %>" method="POST">
+      제목: <input type="text" id="title" name="title" value="<%= rows.title %>">
+      내용: <input type="text" id="description" name="description" value="<%= rows.description %>">
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

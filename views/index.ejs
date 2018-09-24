@@ -1,0 +1,11 @@
+<html>
+  <body>
+    <h1>목록</h1>
+    <a href="/insert">추가하기</a>
+    <% for(let i in rows) { %>
+      <p>
+        <a href="/<%= rows[i].id %>"><%= rows[i].title %></a>
+      </p>
+    <% } %>
+  </body>
+</html>

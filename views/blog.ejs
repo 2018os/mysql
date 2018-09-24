@@ -1,0 +1,12 @@
+<html>
+  <body>
+    <h1><%= rows.title %></h1>
+    <p>
+      <a href="/">돌아가기</a>
+      <a href="/delete/<%= rows.id %>">삭제</a>
+      <a href="/update/<%= rows.id %>">수정</a>
+      <h2>description: <%= rows.description %></h2>
+    </p>
+    <%= rows.created %>
+  </body>
+</html>
